@@ -1,0 +1,11 @@
+
+import { createRoot } from 'react-dom/client'
+
+
+import { Regform } from './dynamic form/Regform.jsx';
+
+createRoot(document.getElementById('root')).render(
+  <Regform />
+  
+
+)
